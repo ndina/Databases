@@ -23,7 +23,7 @@ CREATE TABLE tasks(
   name VARCHAR(50) NOT NULL,
   user_id INT
 );
-
+SELECT * FROM tasks;
 DROP TABLE tasks;
 DROP DATABASE db1;
 
