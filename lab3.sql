@@ -74,7 +74,7 @@ SELECT department, count(*) FROM employees GROUP BY(department);
 SELECT department FROM employees GROUP BY(department) HAVING count(*)>2;
 
 SELECT DISTINCT ON(budget) name FROM departments ORDER BY budget DESC LIMIT 1 OFFSET 1;
---13
+
 SELECT name, lastname FROM employees WHERE department=( SELECT code FROM departments ORDER BY budget LIMIT 1);
 
 SELECT name from customers WHERE city='Almaty';
