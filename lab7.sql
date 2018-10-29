@@ -32,19 +32,6 @@ create table job_grades(
   highest_salary integer
 );
 
-INSERT INTO locations VALUES (default,'A','A','A','A'),
-                             (default,'B','B','B','B'),
-                             (default,'C','C','C','C');
-INSERT INTO department VALUES (default,'a',100,1),
-                               (default,'b',100,2);
-INSERT INTO department VALUES (40,'c',100,1);
-INSERT INTO department VALUES (4,'ds',100,2);
-INSERT INTO employee VALUES (DEFAULT,'Alex', 'Lee','mail','098',100,1),
-                             (DEFAULT ,'Sam','O','gmail','87',123,2);
-INSERT INTO employee VALUES (DEFAULT ,'Forty','num','dsf','asdf',32,40);
-INSERT INTO employee VALUES (DEFAULT ,'Fifth','nu','dsf','asdf',32,40);
-INSERT INTO employee VALUES (DEFAULT ,'Fifth','nu','dsf','asdf',32,NULL);
-
 select * from locations;
 select * from employee;
 select *
